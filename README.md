@@ -1,16 +1,21 @@
-# React + Vite
+# 🌍 BhoomiAI — GIS PropTech & Land Intelligence MVP
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An advanced, modern Real Estate & Land Intelligence Minimum Viable Product (MVP) designed to bridge the gap between historical land transitions, legal risk assessment, and automated property analytics.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
+- **GIS-based Plot Grid Simulation:** Interactive mapping and parcel selection (Khasra mapping).
+- **Time-Machine Land Slider:** Track land-use evolution seamlessly across years (e.g., from Agricultural/Forest land in 2016 to High-Density Residential zones in 2026).
+- **Automated Legal Risk Flagging:** Real-time checking of title clearances and dispute/litigation warnings.
+- **Structural Intelligence & ROI Scoring:** Instant evaluation of existing property details, structural lifespan, and investment ROI metrics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS
+- **Icons:** Lucide React
+- **Version Control:** Git & GitHub
 
-## React Compiler
+## 🏃‍♂️ Getting Started Locally
+To run this project on your local machine, follow these steps:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/AapkaUsername/proptech-land-intelligence.git](https://github.com/AapkaUsername/proptech-land-intelligence.git)
