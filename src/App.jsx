@@ -101,7 +101,7 @@ export default function App() {
           </div>
           <div>
             <h1 className="text-xl font-bold tracking-wide">BhoomiAI — GIS PropTech Intelligence</h1>
-            <p className="text-xs text-slate-400">Land Intelligence & Risk Assessment MVP</p>
+            <p className="text-xs text-slate-400">Prototype with demo data. Not real land records or legal advice.</p>
           </div>
         </div>
         <div className="flex items-center space-x-4">
@@ -129,11 +129,11 @@ export default function App() {
             </div>
             <input 
               type="range" 
-              min="2016" 
-              max="2026" 
-              step="4"
-              value={selectedYear}
-              onChange={(e) => setSelectedYear(Number(e.target.value))}
+              min="0" 
+              max="2" 
+              step="1"
+              value={[2016, 2020, 2026].indexOf(selectedYear)}
+              onChange={(e) => setSelectedYear([2016, 2020, 2026][Number(e.target.value)])}
               className="w-full accent-blue-500 cursor-pointer h-2 bg-slate-700 rounded-lg"
             />
             <div className="flex justify-between text-xs text-slate-400 mt-2 font-medium">
