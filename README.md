@@ -1,21 +1,30 @@
-# 🌍 BhoomiAI — GIS PropTech & Land Intelligence MVP
+# 🌍 BhoomiAI — Land & Property Intelligence Prototype
 
-An advanced, modern Real Estate & Land Intelligence Minimum Viable Product (MVP) designed to bridge the gap between historical land transitions, legal risk assessment, and automated property analytics.
+> **Note:** The product concept and feature ideas are mine. This front-end
+> prototype was built with AI coding assistance and uses demo (simulated) data.
 
-## 🚀 Key Features
-- **GIS-based Plot Grid Simulation:** Interactive mapping and parcel selection (Khasra mapping).
-- **Time-Machine Land Slider:** Track land-use evolution seamlessly across years (e.g., from Agricultural/Forest land in 2016 to High-Density Residential zones in 2026).
-- **Automated Legal Risk Flagging:** Real-time checking of title clearances and dispute/litigation warnings.
-- **Structural Intelligence & ROI Scoring:** Instant evaluation of existing property details, structural lifespan, and investment ROI metrics.
+**Live demo:** https://proptech-land-intelligence.vercel.app
+
+## 💡 Idea
+A platform concept that helps people in India view land parcels (Khasra),
+legal status, and price context in one place.
+
+## 🚀 Features (demo)
+- **Plot grid (Khasra) selection:** simulated map-style parcel view
+- **Time-machine slider:** land-use change from 2016 to 2026 (demo data)
+- **Legal status display:** simulated status labels (demo data, not legal advice)
+- **Property analytics:** structural lifespan and ROI score (demo data)
 
 ## 🛠️ Tech Stack
-- **Frontend:** React, Vite, Tailwind CSS
-- **Icons:** Lucide React
-- **Version Control:** Git & GitHub
+React, Vite, Tailwind CSS, Lucide React, Git & GitHub
 
-## 🏃‍♂️ Getting Started Locally
-To run this project on your local machine, follow these steps:
+## 🏃 Run Locally
+```bash
+git clone https://github.com/kamalsoni808808-coder/BhoomiAI.git
+cd BhoomiAI
+npm install
+npm run dev
+```
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/AapkaUsername/proptech-land-intelligence.git](https://github.com/AapkaUsername/proptech-land-intelligence.git)
+## 📌 Status
+Prototype / concept stage. Backend and real data are future work.
