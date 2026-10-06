@@ -5,6 +5,8 @@
 
 **Live demo:** https://proptech-land-intelligence.vercel.app
 
+![BhoomiAI demo](demo.png)
+
 ## 💡 Idea
 A platform concept that helps people in India view land parcels (Khasra),
 legal status, and price context in one place.
